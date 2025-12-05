@@ -22,7 +22,7 @@ Please note that in some instances (for example when the study name includes das
 ```sftp youremail@stanford.edu@na.export.atomx.nanostring.com```\
 and then use the command ```ls``` to list the name of the output folder(s) available to you.
 
-After ensuring you have ```Hostname```, ```Username```, and ```Output Folder Name```available, you can either copy the folder from the AtoMx server to your local machine with the following ```bash``` command:
+After ensuring you have ```Hostname```, ```Username```, and ```Output Folder Name```available, you can either copy the folder from the AtoMx server to your local machine with the following ```bash``` command:\
 ```scp -r youremail@stanford.edu@na.export.atomx.nanostring.com:/yourstudy_DD_MM_YYYY_HH_MM_SS_XXX /your/output/directory```
 
 Or you can use tools like [rclone](https://www.sherlock.stanford.edu/docs/software/using/rclone/) to transfer files from the AtoMx server to your own cloud. This way you can save storage on your local machine.
